@@ -3,7 +3,7 @@ pipeline {
   parameter {
     choice( 
       name : 'env',
-      choices : "dev\nprod"
+      choices : "dev\nprod",
       description : 'nope'
     )
   }
